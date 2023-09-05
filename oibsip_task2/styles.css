@@ -1,0 +1,110 @@
+body {
+background-image: url(photo-1609701373356-2605b56d3f60.jpg);
+  background-size: cover;
+  color:white;
+  border-style: groove;
+  border-color: aliceblue;
+  border-width: 20px;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  background-color: aliceblue;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(248, 245, 243, 0.61);
+  border-width: 10px;
+  border-style: hidden;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-decoration:underline;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  font-weight: bolder;
+}
+
+#main {
+  text-align: center;
+  text-shadow: 0dvh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 9, 7);
+    text-decoration-style:solid ;
+    font-size: 40px;
+    background-color: rgba(248, 245, 243, 0.722);
+  border-width: 10px;
+  border-style: hidden;
+  margin-left: 250px;
+  margin-right: 250px;
+
+}
+
+img{
+  border: 5px;
+  display: block;
+  border-color:rgb(215, 195, 188);
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+h3 {
+  text-decoration: underline;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.564);
+  
+  
+}
+
+#qu {
+  text-align: center;
+  padding-right: 100px;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: rgba(248, 245, 243, 0.57);
+  color: black;
+  border-width: 5px;
+  border-style: hidden;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius: 20px;
+
+}
+
+#bio {
+  text-align: center;
+  font-weight: bold ;
+  text-decoration:underline ;
+  text-decoration-line: underline;
+  text-decoration-color: antiquewhite;
+  font-size: 40px;
+  background-color: whitesmoke;
+  color: black;
+  border-width: 5px;
+  border-style: hidden;
+  margin-left: 600px;
+  margin-right: 600px;
+  border-radius: 20px;
+
+}
+
+#intro {
+
+  border: 5px;
+  border-color: aliceblue;
+  border-style: groove;
+  margin-left:100px;
+  margin-right: 100px;
+  line-height: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:white;
+  margin-bottom: 30px;
+}
