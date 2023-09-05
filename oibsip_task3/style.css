@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #991111;
+  background-image: url(max-saeling-_CGxNOLM1gQ-unsplash.jpg);
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  border-width: 5px;
+  border-style: hidden;
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: #f3ebeba0;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.delete {
+  color: #d9534f;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.edit {
+  color: #f0ad4e;
+  cursor: pointer;
+  margin-left: 5px;
+}
