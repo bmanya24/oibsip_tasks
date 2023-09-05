@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #480524d7;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.login-slide, .register-slide {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 300px;
+}
+
+.slide {
+    display: none;
+}
+
+h2 {
+    color: #ba0a4b;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #450326c5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #75124a;
+}
+
+#login-message, #registration-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.toggle-button {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toggle-button button {
+    background-color: #450326c5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-button button:hover {
+    background-color: #75124a;
+}
